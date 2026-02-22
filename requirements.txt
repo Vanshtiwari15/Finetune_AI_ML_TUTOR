@@ -1,0 +1,32 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+
+torch>=2.0.0
+transformers==4.38.2
+peft==0.8.2
+accelerate==0.27.2
+
+pydantic==2.6.4
+
+# Core ML
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.16.0
+accelerate>=0.25.0
+
+# RAG
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# UI
+streamlit>=1.30.0
+
+# Utilities
+numpy>=1.23.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+requests>=2.31.0

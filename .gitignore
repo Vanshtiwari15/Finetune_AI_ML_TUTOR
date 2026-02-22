@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+*.env
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Model Checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+model/checkpoints/
+training/checkpoints/
+training/runs/
+training/logs/
+
+# =========================
+# RAG / FAISS Indexes
+# =========================
+*.index
+*.faiss
+rag/index/
+rag/vectorstore/
+
+# =========================
+# Data Files
+# =========================
+*.csv
+*.jsonl
+*.parquet
+*.h5
+*.sqlite
+data/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.tar
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Node (if frontend grows)
+# =========================
+node_modules/
+dist/
